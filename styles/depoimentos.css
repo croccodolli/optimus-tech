@@ -1,0 +1,52 @@
+.container-depoimentos {
+    background-color: var(--fundo-box);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10vw 5em 10vw;
+    padding: 3em 4em;
+}
+
+.container__aspas {
+    font-size: 36px;
+    font-weight: 500;
+    color: va(--cor-fonte-escura);
+    line-height: 44px;
+}
+
+.colaborador__nome {
+    color: var(--cor-fonte-escura);
+    margin-bottom: 0.5em;
+}
+
+.colaborador__cargo {
+    color: var(--cor-fonte-clara);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.colaborador__avatar {
+    margin: 2em 0 1em 0;
+}
+
+@media (max-width: 768px) {
+    .container__aspas {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .container__aspas {
+        font-size: 1em;
+        line-height: 20px;
+    }
+
+    .container-depoimentos {
+        padding: 2em 1em;
+
+    }
+}
+

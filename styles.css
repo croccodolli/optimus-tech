@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("../styles/reset.css");
+@import url("../styles/header.css");
+@import url("../styles/cabecalho.css");
+@import url("../styles/metricas.css");
+@import url("../styles/vagas.css");
+@import url("../styles/depoimentos.css");
+@import url("../styles/formulario.css");
+
+:root {
+    --branco: #FFFFFF;
+    --cor-destaque: rgba(142, 36, 36, 1);
+    --cor-fonte-escura: rgba(16, 24, 40, 1);
+    --cor-fonte-media: rgba(58, 64, 78, 1);
+    --cor-fonte-clara: rgba(102, 112, 133, 1);
+    --borda-box: rgba(234, 236, 240, 1);
+    --fundo-box: rgba(195, 25, 25, 0.03);
+    --fundo-rodape: rgba(249, 250, 251, 1);
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+}
